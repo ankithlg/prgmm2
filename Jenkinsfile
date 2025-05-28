@@ -6,10 +6,6 @@ pipeline {
                 bat 'python hello.py'
             }
         }
-        stage('Show HTML Interface') {
-            steps {
-                bat 'start index.html'
-            }
-        }
+       
     }
 }
